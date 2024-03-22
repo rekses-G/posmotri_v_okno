@@ -8,9 +8,10 @@
 }
 
 .error__title {
-  color: #fff;
+  color: var(--white);
   font-family: Oswald, sans-serif;
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
+  font-weight: 400;
 }
