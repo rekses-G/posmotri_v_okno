@@ -238,8 +238,8 @@ ol {
 
 .content__list {
   position: relative;
-  max-height: 298px;
   overflow: auto;
+  block-size: 298px;
 }
 
 .content__list-item:not(:last-of-type) {
