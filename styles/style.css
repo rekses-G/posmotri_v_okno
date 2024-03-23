@@ -60,7 +60,6 @@ ol {
   display: flex;
   gap: 30px;
   inline-size: 1140px;
-  block-size: 534px;
 }
 
 .result {
@@ -94,15 +93,15 @@ ol {
 }
 
 .search-form__textfield {
+  min-width: 225px;
   border: none;
   border-top: 1px solid var(--white);
-  border-bottom: 1px solid var(--white);
-  color: rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid currentColor;
+  color: currentColor;
   font-family: inherit;
   font-weight: 400;
   font-size: 18px;
   background-color: transparent;
-  inline-size: 225px;
   appearance: none;
 }
 
@@ -115,7 +114,7 @@ ol {
 }
 
 .button {
-  border: 1px solid var(--white);
+  border: 1px solid currentColor;
   color: var(--white);
   font-family: inherit;
   font-weight: 700;
@@ -239,6 +238,7 @@ ol {
 
 .content__list {
   position: relative;
+  max-height: 298px;
   overflow: auto;
 }
 
@@ -308,6 +308,8 @@ ol {
 
 .content__video-card-thumbnail {
   align-self: center;
+  object-fit: cover;
+  object-position: center;
   inline-size: 194px;
   block-size: 103px;
 }
